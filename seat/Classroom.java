@@ -35,7 +35,8 @@ public class Classroom extends World
         // Make sure to match your first and last name to the class file you created.
 
         /* Example */
-        SubashShibu subashshibu = new SubashShibu("Subash", "Shibu", 3, 6);
+        Student.resetNumStudents();
+        SubashShibu subashshibu = new SubashShibu("Subash", "Shibu", 3, 6);// sets the parameters for my function
         addObject(subashshibu, 1, 1);
         subashshibu.sitDown();
          
